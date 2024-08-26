@@ -1,0 +1,106 @@
+.vectorIcon,
+.vectorIcon1 {
+  height: 56px;
+  width: 210px;
+  position: relative;
+}
+.vectorIcon1 {
+  height: 6px;
+  width: 8px;
+}
+.footerContent,
+.shnLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.footerContent {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-xl) 0 0;
+}
+.thsvgIcon {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.organizationLogo {
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) 0 0;
+  box-sizing: border-box;
+}
+.separator {
+  height: 96px;
+  width: 1px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gray-400);
+}
+.linkTinkerhuborg {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.footer,
+.organizationLink,
+.tinkerhub {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.organizationLink {
+  flex-direction: column;
+  padding: var(--padding-11xl) 0 0;
+}
+.footer,
+.tinkerhub {
+  flex-direction: row;
+  gap: var(--gap-mid);
+}
+.footer {
+  margin-left: -95px;
+  width: 1440px;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-25xl) var(--padding-35xl);
+  box-sizing: border-box;
+  max-width: 108%;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--on-surface);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    flex-wrap: wrap;
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .separator {
+    width: 100%;
+    height: 1px;
+  }
+  .linkTinkerhuborg {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .tinkerhub {
+    flex-wrap: wrap;
+  }
+}
