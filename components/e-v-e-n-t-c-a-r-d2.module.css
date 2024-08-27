@@ -1,0 +1,245 @@
+.background,
+.eventLogoIcon {
+  position: absolute;
+  margin: 0 !important;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.eventLogoIcon {
+  height: 120px;
+  width: 240px;
+  top: 69px;
+  left: 34.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.checkmarkIcon,
+.eventLogoIcon1 {
+  position: relative;
+  object-fit: cover;
+}
+.eventLogoIcon1 {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.checkmarkIcon {
+  width: 20px;
+  height: 20px;
+}
+.checkmarkWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.span {
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+.completedProjects1 {
+  position: relative;
+  line-height: 26.04px;
+  text-transform: uppercase;
+}
+.background1,
+.completedProjects,
+.completedProjectsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.completedProjects {
+  flex: 1;
+  border-radius: 14.11px;
+  background-color: var(--background);
+  padding: var(--padding-11xs-5) var(--padding-2xl);
+  gap: var(--gap-2xs);
+}
+.background1,
+.completedProjectsWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-9xs) 0 var(--padding-10xs);
+}
+.background1 {
+  flex: 1;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--on-surface);
+  flex-direction: column;
+  padding: var(--padding-53xl) var(--padding-17xl) var(--padding-5xl);
+  gap: var(--gap-lg);
+  z-index: 2;
+}
+.eventLogoParent {
+  height: 264px;
+  flex-direction: row;
+  position: relative;
+}
+.completedProjectsContainer,
+.eventLogoParent,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.completedProjectsContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-22xl) 0 var(--padding-18xl);
+  margin-top: -43px;
+}
+.frameParent {
+  height: 264px;
+  flex-direction: column;
+}
+.djangoIsA {
+  margin: 0;
+}
+.djangoIsAContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  transform: rotate(0.6deg);
+  z-index: 2;
+}
+.groupOfProjects {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+}
+.seeProjects {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 94px;
+}
+.groupOfProjectsParent {
+  width: 122px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 8px 6px;
+}
+.buttonBg,
+.eventCardbuttondefaultprop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.buttonBg {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-400);
+  border: 1.5px solid var(--color-gray-400);
+  align-items: center;
+  padding: var(--padding-7xs) var(--padding-8xs);
+}
+.eventCardbuttondefaultprop {
+  flex: 1;
+  align-items: flex-start;
+}
+.moreInfo1 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 600;
+  font-family: var(--font-clash-display);
+  color: var(--on-surface);
+  text-align: left;
+  display: inline-block;
+  min-width: 71px;
+}
+.moreInfo,
+.moreInfoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moreInfo {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.moreInfoWrapper {
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  padding: var(--padding-7xs) var(--padding-mid);
+}
+.eventCardbuttondefaultprop1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttons,
+.buttonsWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.buttons {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) 0;
+  gap: var(--gap-5xs);
+  z-index: 2;
+}
+.buttonsWrapper {
+  width: 279px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-aliceblue);
+}
+.djangoIsAHighLevelPythonParent,
+.eventCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.djangoIsAHighLevelPythonParent {
+  width: 296.1px;
+  align-items: flex-start;
+  gap: var(--gap-2xl);
+  font-size: var(--font-size-lg);
+}
+.eventCard {
+  flex: 1;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-base);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-base);
+  min-width: 203px;
+  text-align: left;
+  font-size: var(--font-size-smi-2);
+  color: var(--on-surface);
+  font-family: var(--font-clash-display);
+}

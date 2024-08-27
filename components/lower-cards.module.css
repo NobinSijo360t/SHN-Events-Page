@@ -1,0 +1,57 @@
+.cardRow,
+.singleCardContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.cardRow {
+  width: 1314.4px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 77px 20.7px;
+  min-height: 957px;
+}
+.singleCardContainer {
+  height: 540px;
+  width: 358px;
+  flex-direction: column;
+}
+.lowerCards,
+.lowerCardsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.lowerCardsContainer {
+  width: 1374px;
+  align-items: flex-end;
+  gap: var(--gap-69xl-6);
+}
+.lowerCards {
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-aliceblue);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1400px) {
+  .lowerCardsContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .lowerCardsContainer {
+    gap: var(--gap-25xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .lowerCardsContainer {
+    gap: var(--gap-3xl);
+  }
+}

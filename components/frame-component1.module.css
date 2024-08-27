@@ -1,0 +1,19 @@
+.cardGrid,
+.cardGridWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cardGrid {
+  width: 1314.4px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 77px 21.3px;
+  min-height: 2508px;
+}
+.cardGridWrapper {
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
