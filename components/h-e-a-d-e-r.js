@@ -24,7 +24,7 @@ const HEADER = ({ className = "" }) => {
           <div className={styles.projectHubWrapper}>
             <div className={styles.projectHub}>
               <div className={styles.menuButton}>
-                <div className={styles.projectHub1}>PROJECT HUB</div>
+                <div className={styles.projectHub1}>Events</div>
               </div>
               <div className={styles.highlight} />
             </div>
